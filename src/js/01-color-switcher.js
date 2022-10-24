@@ -20,7 +20,7 @@ function startChangeColorBody(e) {
 
   timerId = setInterval(() => {
     body.style.backgroundColor = getRandomHexColor();
-  }, 1000);
+  }, 10);
 }
 //
 function stopChangeColorBody() {
